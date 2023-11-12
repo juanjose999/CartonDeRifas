@@ -1,0 +1,7 @@
+.cuadrado {
+    width: 40px;
+    height: 40px;
+    background-color: lightblue;
+    margin: 5px; /* Agrega un pequeño margen entre los cuadrados */
+    display: inline-block;
+}
