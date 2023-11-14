@@ -13,19 +13,32 @@
     <main>
         <div class="container">
             <h1>Generado de una rifa: </h1>
-    
+
             <section id="crear">
                 <div class="numP">
                     <p>"Ingrese el número de puestos: "</p>
-    
+
                     <input type="number" min="1" id="numPuestos">
                     <button id="enviarbtn">Enviar btn</button>
                 </div>
             </section>
-    
+
             <div class="container-cuadricula">
                 <section id="ver">
-    
+
+                </section>
+            </div>
+
+            <div class="btns">
+                <section id="totalPuestos">
+                    <div class="totales">
+                        <span>Puestos vendidos :</span>
+                        <span id="contador"></span>
+                    </div>
+                    <div class="faltantes">
+                        <span>Puestos disponibles :</span>
+                    <span id="contadorDisponibles"></span>
+                    </div>
                 </section>
             </div>
         </div>
